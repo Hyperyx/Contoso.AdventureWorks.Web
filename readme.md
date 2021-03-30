@@ -1,16 +1,11 @@
-# Contoso.AdventureWorks.Web
-Web API to manage your awesome movies
+# Create a web API with ASP.NET Core and MongoDB
 
-## Prerequisites
-* .NET CLI
- 
-## Build Server-side
-Build .NET Core Web API with these steps:
-* dotnet restore
-* dotnet build 
+This tutorial creates a web API that performs Create, Read, Update, and Delete (CRUD) operations on a [MongoDB](https://www.mongodb.com/what-is-mongodb) NoSQL database.
 
-## Run App
-Start your Web API using this command:
-* dotnet run
+In this tutorial, you learn how to:
 
-You can access your API from here: https://localhost:5001/
+* Configure MongoDB
+* Create a MongoDB database
+* Define a MongoDB collection and schema
+* Perform MongoDB CRUD operations from a web API
+* Customize JSON serialization

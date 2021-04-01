@@ -21,7 +21,7 @@ namespace BooksApi.Services
             _books.Find(book => true).ToList();
 
         public Book Get(string id) =>
-            _books.Find<book>(book => book.Id == id).FirstOrDefault();
+            _books.Find<Book>(book => book.Id == id).FirstOrDefault();
 
         public Book Create(Book book)
         {

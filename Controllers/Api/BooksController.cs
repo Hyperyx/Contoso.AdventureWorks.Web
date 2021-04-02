@@ -1,9 +1,9 @@
-using BooksApi.Models;
-using BooksApi.Services;
+using Contoso.AdventureWorks.Web.Models;
+using Contoso.AdventureWorks.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace BooksApi.Controllers
+namespace Contoso.AdventureWorks.Web.Controllers.Api
 {
     [Route("api/[controller]")]
     [ApiController]

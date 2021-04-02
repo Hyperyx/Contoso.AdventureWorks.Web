@@ -2,7 +2,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using Newtonsoft.Json;
 
-namespace BooksApi.Models
+namespace Contoso.AdventureWorks.Web.Models
 {
     public class Book
     {

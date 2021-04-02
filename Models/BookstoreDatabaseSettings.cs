@@ -1,4 +1,4 @@
-namespace BooksApi.Models
+namespace Contoso.AdventureWorks.Web.Models
 {
     public class BookstoreDatabaseSettings : IBookstoreDatabaseSettings
     {

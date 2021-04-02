@@ -1,9 +1,9 @@
-using BooksApi.Models;
+using Contoso.AdventureWorks.Web.Models;
 using MongoDB.Driver;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BooksApi.Services
+namespace Contoso.AdventureWorks.Web.Services
 {
     public class BookService
     {

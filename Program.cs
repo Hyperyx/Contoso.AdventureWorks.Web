@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace BooksApi
+namespace Contoso.AdventureWorks.Web
 {
     public class Program
     {
